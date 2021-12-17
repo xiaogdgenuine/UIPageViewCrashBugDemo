@@ -16,7 +16,7 @@ class MangaPageController: ViewController {
         imageView.contentMode = .scaleAspectFit
         super.init(nibName: nil, bundle: nil)
 
-        view.backgroundColor = .black
+        view.backgroundColor = .systemBackground
         view.addSubview(imageView)
     }
 
